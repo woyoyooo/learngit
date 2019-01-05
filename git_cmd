@@ -1,0 +1,9 @@
+git init  // create a git repo
+git add <file>  or .
+git commit -m "mess"
+git reset  --hard HEAD(commit id)   //run back 
+git reset Head <file>  //cancle the add opeartion
+git log  //show the commit 
+git reflog  //show all the op include reset
+git checkout --  file  //run back the file in dir before the last add or commit
+git diff file   // compare the file
