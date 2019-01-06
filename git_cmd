@@ -26,3 +26,9 @@ git checkout <name> // switch to the other brabch
 git checkout -b <name> == git branch <namee>+git checkout <name>
 git merge <name> // merge the chosen branch to current branch
 git branch -d <name> //del the chose branch
+
+solve the merge conflict:
+fix the conflict in the wrong file which will be mark  
+and then use git add and git commit
+and use git log --graph --prety=online --abbrev-commit
+after that delete the branch
