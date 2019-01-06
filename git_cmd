@@ -10,6 +10,7 @@ git checkout --  file  //run back the file in dir before the last add or commit 
 git diff file   // compare the file
 git rm    //rm file in git 
 
+
 remote:
 git remote add origin git@githu.com:woyoyooo/repo_name.git //connect the localrepo with the remote repo named by origin
 
@@ -19,6 +20,11 @@ git push origin master  //push the branch to the default origin
 
 git clone git@github.com:woyoyoo/repo_name,git  //clone and connecl the remote repo.
 
+git checkout -b dev origin/dev   //get the dev branch after clone the remote master branch
+
+git pull // before push the branch,you need to refresh the branch ,otherwise maybe conflict and you should fix it and push
+
+git branch --set-upstream-to=origin/branch branch  //create the combination in branch before pull.
 manage branch:
 git branch // show all the branch
 git branch  <name> //create a branch
