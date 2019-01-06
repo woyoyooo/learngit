@@ -18,3 +18,11 @@ git push -u origin master // set the origin as the default remote repo and push 
 git push origin master  //push the branch to the default origin
 
 git clone git@github.com:woyoyoo/repo_name,git  //clone and connecl the remote repo.
+
+manage branch:
+git branch // show all the branch
+git branch  <name> //create a branch
+git checkout <name> // switch to the other brabch
+git checkout -b <name> == git branch <namee>+git checkout <name>
+git merge <name> // merge the chosen branch to current branch
+git branch -d <name> //del the chose branch
